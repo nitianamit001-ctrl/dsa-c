@@ -1,3 +1,6 @@
+// numupdatebit
+
+
 // #include<iostream>
 // #include<cstring>
 // #include<vector>
@@ -20,6 +23,11 @@
 // }
 
 
+
+// clear bit
+
+
+
 // #include<iostream>
 // #include<cstring>
 // #include<vector>
@@ -36,6 +44,10 @@
 // clear(num,i);
 //     return 0;
 // }
+
+
+
+// countsetbits
 
 
 
@@ -62,27 +74,31 @@
 
 
 
-#include<iostream>
-#include<cstring>
-#include<vector>
-using namespace std;
-void countbits(int num,int expo){
-    int count=1;
-    while(expo>0){
-        int lastdigit=expo&1;
-        if(lastdigit){
-        count=count*num;
-        }
-       expo= expo>>1;
-        num=num*num;
-        
-    }
-    cout<<count<<endl;
-}
+// power probleam
 
-int main (){
-int num=3;
-int expo=5;
-countbits(num,expo);
-    return 0;
-}
+
+
+// #include<iostream>
+// #include<cstring>
+// #include<vector>
+// using namespace std;
+// void countbits(int num,int expo){
+//     int count=1;
+//     while(expo>0){
+//         int lastdigit=expo&1;
+//         if(lastdigit){
+//         count=count*num;
+//         }
+//        expo= expo>>1;
+//         num=num*num;
+        
+//     }
+//     cout<<count<<endl;
+// }
+
+// int main (){
+// int num=3;
+// int expo=5;
+// countbits(num,expo);
+//     return 0;
+// }
