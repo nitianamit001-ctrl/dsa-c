@@ -1,3 +1,31 @@
+// tiling probleam
+
+// #include<iostream>
+// #include<cstring>
+// #include<vector>
+// using namespace std;
+// int tilingprobleam(int n){
+//     if(n==0){
+//         return 1;
+//     }if(n==1){
+//         return 1;
+//     }
+//     int ans1= tilingprobleam(n-1)+  tilingprobleam(n-2);
+//     int totalways=ans1;
+//     return totalways;
+// }
+
+// int main (){
+//  int n=4;
+//  cout<<tilingprobleam(n);
+//     return 0;
+// }
+
+
+
+// remove duplicate in string
+
+
 // #include<iostream>
 // #include<cstring>
 // #include<vector>
@@ -28,6 +56,8 @@
 
 
 
+// freind pairing probleam
+
 
 // #include<iostream>
 // #include<cstring>
@@ -49,32 +79,32 @@
 
 
 
+// binary stri g n size
 
 
 
 
+// #include<iostream>
+// #include<cstring>
+// #include<vector>
+// using namespace std;
+// void binarystring(int n,int lp,string ans){
+// if(n==0){
+//     cout<<ans<<endl;
+//     return;
+// }
+// if(lp!=1){
+//     binarystring(n-1,0,ans+'0');
+//     binarystring(n-1,1,ans+'1');
+// }else{
+//     binarystring(n-1,0,ans+'0');
 
-#include<iostream>
-#include<cstring>
-#include<vector>
-using namespace std;
-void binarystring(int n,int lp,string ans){
-if(n==0){
-    cout<<ans<<endl;
-    return;
-}
-if(lp!=1){
-    binarystring(n-1,0,ans+'0');
-    binarystring(n-1,1,ans+'1');
-}else{
-    binarystring(n-1,0,ans+'0');
+// }
+// }
 
-}
-}
-
-int main (){
- int n=3;
- string ans="";
- binarystring(n,0,ans);
-    return 0;
-}
+// int main (){
+//  int n=3;
+//  string ans="";
+//  binarystring(n,0,ans);
+//     return 0;
+// }
